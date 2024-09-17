@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body>
+
+    <!-- -----------HOME--------- -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <nav class="navbar"> <ul id="side-menu">
+        <li><a href="#home" style="--i: 1" >Home</a></li>
+        <li><a href="#about" style="--i: 2">About Me</a></li>
+        <li><a href="#services" style="--i: 3">Services</a></li>
+        <li><a href="#skills" style="--i: 4">Skills</a></li>
+        <li><a href="#project" style="--i: 5">Projects</a></li>
+        <li><a href="#contact" style="--i: 6">Contact</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+     
+        <i class="fa-solid fa-bars" onclick="openmenu()" ></i>
+      </nav>
+    </header>
+    <section class="home " id="home">
+      <div class="home-content">
+        <h3 class="one">Hello , It's Me</h3>
+        <h1>Ritika Sah</h1>
+        <h3><span class="text"></span></h3>
+        <p>
+          Crafting captivating user interfaces using modern frameworks and libraries.
+          Passionate about learning new skills and possesses the
+          ability to understand new softwares and technologies quickly...
+        </p>
+        <div class="download">
+        <a href="Resume_RitikaSah.pdf" class="btn" download>
+          DOWNLOAD CV</a>
+        </div>
+      </div>
+
+      <div>
+        <img src="Images/pic.png" alt="" />
+      </div>
+    </section>
+
+    <!-- -----------ABOUT ME--------- -->
+
+    <section id="about">
+      <div class="about-main">
+      <div class="about-heading">
+        <h1>About <span> Me </span></h1>
+      </div>
+      <div class="about"> 
+        <div>
+          <p>
+            Motivated and enthusiastic frontend developer with a strong foundation in HTML, CSS, JavaScript, and modern frameworks like React. Seeking to leverage my skills and passion for creating engaging, user-friendly web applications in a challenging frontend development role.
+          </p>
+        </div>
+        <div class="two">
+        <div class="education">
+          <h2>EDUCATION</h2>
+          <div>
+            <h4>BCA</h4>
+            <p>Ranchi University</p>
+            <p>Percentage: 86%</p>
+          </div>
+          <div>
+            <h4>Intermediate</h4>
+            <p>Ranchi University</p>
+            <p>Percentage: 76%</p>
+          </div>
+          <div>
+            <h4>Matriculation</h4>
+            <p>Ranchi University</p>
+            <p>Percentage: 86%</p>
+          </div>
+        </div>
+        <div class="hobby">
+            <h2 class="title">HOBBY</h2>
+             <li>Reading Novels</li>
+            
+            <li>Playing Sports</li>
+            <li>Listening Music</li>
+          </div>
+          <div class="hobby">
+            <h2 class="title">STRENGTHS</h2>
+             <li>Communication</li>
+             <li>Perseverance</li>
+            
+             <li>Creative</li>
+             <li>Time Management</li>
+          </div>
+      </div>
+    </div>
+    </section>
+
+
+    <!-- -----------SERVICES--------- -->
+
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Services</span></h1>
+                <div class="services-list">
+                  <div class="services-part">
+                    <i class="fa-solid fa-code" style="color: #00ffe5;"></i>
+                    <h2 >Web Development</h2>
+                    <p> Whether you need a simple landing page or a complex web application, I can help bring your vision to life.</p>
+                    <p><strong class="para">Skills and Frameworks:</strong> HTML5, CSS3, JavaScript, React,  Git, Github, Tailwind CSS, Bootstrap</p>
+                  </div>
+                  <div >
+                    <i class="fa-brands fa-figma" style="color: #00ffe5;"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>With a focus on user-centered design, I craft intuitive and engaging user interfaces. My designs aim to provide an optimal user experience and meet business goals.</p>
+                    <p><strong class="para">Skills and Tools:</strong> Figma,User Journey,User Flow, Wireframing, Prototyping ,Mockups</p>
+                  </div>
+                  <!-- Crafting captivating user interfaces using modern frameworks and libraries. -->
+                  <div >
+                    <i class="fa-solid fa-globe" style="color: #00ffe5;"></i>
+                    <h2>SEO</h2>
+                    <p>Can enhance website performance by optimizing code, improving load times, and ensuring a smooth user experience. Fast and efficient websites lead to higher user satisfaction and better SEO.</p>
+                    <p><strong class="para">Skills and Tools:</strong> Lighthouse, Google PageSpeed Insights</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------SKILLS--------- -->
+
+
+    <h1 class="sub-title1 sub-title">My <span>Skills</span></h1>
+
+    <section class="my-skill sec" >
+      <div class="container1" id="skills">
+        <h1 class="heading1">Technical Skills</h1>
+        <div class="technical-bars">
+          <div class="bar"><i class="fa-brands fa-html5" style="color: #c95d2e;"></i>
+            <div class="info">
+              <span>HTML</span>
+            </div>
+            <div class="progress-line html">
+              <span> </span>
+            </div>
+          </div>
+          <div class="bar"><i class="fa-brands fa-css3" style="color: #147bbc;"></i>
+            <div class="info">
+              <span>CSS</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar"><i class="fa-brands fa-js" style="color: #b0bc1e;"></i>
+            <div class="info">
+              <span>JavaScript</span>
+            </div>
+            <div class="progress-line javascript">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar"><i class="fa-brands fa-react" style="color: #69bcbc;"></i>
+            <div class="info">
+              <span>React</span>
+            </div>
+            <div class="progress-line react">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar"><i class="fa-brands fa-figma" style="color: #69bcbc;"></i>
+            <div class="info">
+              <span>Figma</span>
+            </div>
+            <div class="progress-line figma">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar"><i class="fa-brands fa-python" style="color: #b0bc1e;"></i>
+            <div class="info">
+              <span>Python</span>
+            </div>
+            <div class="progress-line python">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+     <div class="container1">
+      <h1 class="heading1 extra">Soft Skills</h1>
+      <div class="radial-bars">
+      <div class="radial-bar">
+        <svg x="0px" y="0px" viewBox="0 0 200 200">
+          <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+          <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+
+        </svg>
+        <div class="percent">99%</div>
+        <div class="text">Communication</div>
+        
+      </div>
+
+      <div class="radial-bar">
+        <svg x="0px" y="0px" viewBox="0 0 200 200">
+          <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+          <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+
+        </svg>
+        <div class="percent">90%</div>
+        <div class="text">Leadership</div>
+        
+      </div>
+
+      <div class="radial-bar">
+        <svg x="0px" y="0px" viewBox="0 0 200 200">
+          <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+          <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+
+        </svg>
+        <div class="percent">95%</div>
+        <div class="text">Growth-Mindset</div>
+        
+      </div>
+
+      <div class="radial-bar">
+        <svg x="0px" y="0px" viewBox="0 0 200 200">
+          <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+          <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+
+        </svg>
+        <div class="percent">90%</div>
+        <div class="text">Problem Solving</div>
+        
+      </div>
+    </div>
+   
+     </div>
+
+    </section>
+
+    <!-- -----------PORTFOLIO--------- -->
+
+    <section class="fourth">
+      <div id="portfolio" id="project">
+        <div class="main-text" id="project">
+          <h2>Latest <span>Projects</span></h2>
+
+          <div class="portfolio-content">
+            
+            <div class="row">
+              <img src="Images/Redstore.png" alt="">
+              <div class="layer">
+                <h5>RedStore-Ecommerce Website</h5>
+                <a href="https://ritika-redstore-ecommerce-website.netlify.app"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #0d0c0c;"></i></a>
+              </div>
+            </div>
+            <div class="row">
+              <img src="Images/Gemini-Ai.png" alt="">
+              <div class="layer">
+                <h5>Gemini Ai Clone</h5>
+                <a href="https://ritika-gemini-ai.netlify.app"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #0a0303;"></i></a>
+              </div>
+            </div>
+            <div class="row">
+              <img src="Images/Campsvilla Website.png" alt="">
+              <div class="layer">
+                <h5>Campsvilla</h5>
+                <a href="https://campsvilla.netlify.app"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #161414;"></i></a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------CONTACT--------- -->
+
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <h4>Lets Work Together</h4>
+        <p>I would love to hear from you. Or Else for any question contact me... </p>
+        
+        <div class="contact-list">
+          <li><a href="mailto: ritikasah731@gmail.com"><i class="fa-solid fa-envelope"></i>ritikasah731@gmail.com </a></li>
+          <li><a href="tel:987654321"><i class="fa-solid fa-phone"></i>9876543210</a></li>
+          <li><a href="https://github.com/sahritika07"><i class="fa-brands fa-github"></i>github.com/sahritika07</a></li>
+    
+        </div>
+        <!-- <div class="contact-icons">
+          <a href=""></a>
+        </div> -->
+      </div>
+
+      <div class="contact-form">
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="f3953dc0-7d0a-4385-a8cc-8e7e15174da1">
+          <input type="text" name="name" placeholder="Enter your name">
+          <input type="email" name="email" placeholder="Enter your email" id="email">
+          
+          <textarea name="message"  rows="10" cols="40" placeholder="Enter your subject"></textarea>
+          <input type="submit" value="submit" class="send">
+        </form>
+      </div>
+    </section>
+
+    <div class="last-text">
+      <p>Developed with love by Ritika Sah © 2024</p>
+    </div>
+    <a href="#" class="top"> <i class="fa-solid fa-arrow-up"></i></a>
+
+   
+
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </body>
+</html>
